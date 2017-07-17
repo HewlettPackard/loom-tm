@@ -1,5 +1,5 @@
 # loom-tm
-Loom package for HPE's The Machine.  For more information on Loom look at its [github repo](https://github.com/HewlettPackard/loom).  This package incorporates the Loom server, [TM specific adaptor](http://https://github.com/HewlettPackard/loom-tm-adapter), the Management Dashboard using the default Loom user interface and also the Executive Dashboard using an [alternative front-end](http://https://github.com/HewlettPackard/loom-tm-ed).
+Loom package for HPE's The Machine.  For more information on Loom look at its [github repo](https://github.com/HewlettPackard/loom).  This package incorporates the Loom server, [TM specific adaptor](https://github.com/HewlettPackard/loom-tm-adapter), the Management Dashboard using the default Loom user interface and also the Executive Dashboard using an [alternative front-end](https://github.com/HewlettPackard/loom-tm-ed).
 
 This project is configured to pull down the version of Loom specified in `pom.xml` and the required versions of the adapter(s) which are placed in the `./adapters` folder.  Optional build stages are available for packaging and pushing Docker images.
 
