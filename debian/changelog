@@ -1,0 +1,50 @@
+loom-tm (1.6+l4tm1) catapult; urgency=medium
+
+  * Arc fix and first release from FTC.
+
+ -- Betty Dall <betty.dall@hpe.com>  Fri, 31 Mar 2017 09:26:00 +0000
+
+loom-tm (1.5+l4tm1) catapult; urgency=medium
+
+  * Multiple updates.  Uses Loom 3.10 and ED 1.2 (with updates_
+
+ -- Rycharde Hawkes <rycharde.hawkes@hpe.com>  Fri, 20 Jan 2017 16:04:00 +0000
+
+loom-tm (1.4+l4tm1) catapult; urgency=medium
+
+  * Multiple updates.  Uses Loom 3.9 and ED 1.2
+
+ -- Rycharde Hawkes <rycharde.hawkes@hpe.com>  Tue, 06 Dec 2016 16:15:00 +0000
+
+loom-tm (1.3+l4tm1) catapult; urgency=medium
+
+  * First full release.  Includes intermediate MD and ED.
+
+ -- Rycharde Hawkes <rycharde.hawkes@hpe.com>  Fri, 11 Nov 2016 18:05:00 +0000
+
+loom-tm (1.0+l4tm2) catapult; urgency=medium
+
+  [ Thavatchai Makphaibulchoke ]
+  * Changing debian/rules to use Makefile
+  * Changing to two packages build, binary and repo
+
+  [ Rycharde Hawkes ]
+  * Modified way apps are deployed such that MD is present at https://<host>/.  Added stub for ED.
+  * Adjusted packaging to work with new deployment needs.
+  * Add missing file to debian packaging.
+  * Corrected path to XML config files.
+  * No longer listens on port 80 and redirects to 443.  Now only direct connections to 443 are supported.
+  * Completed addition of ED context, serving appropriate tm-ed build.
+  * Added missing rule for copying ED war.
+  * Corrected path override for ED war.
+
+  [ T Makphaibulchoke ]
+
+ -- T Makphaibulchoke <tmac@hpe.com>  Tue, 25 Oct 2016 15:46:39 -0600
+
+loom-tm (1.0+l4tm1) catapult; urgency=low
+
+  * Initial release
+
+ -- T Makphaibulchoke <tmac@hpe.com>  Thu, 24 Mar 2016 11:23:45 -0600
+

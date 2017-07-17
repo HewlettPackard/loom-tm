@@ -1,0 +1,5 @@
+#!/bin/sh
+service loom-tm stop
+systemctl disable loom-tm.service
+rm -rf /usr/share/loom-tm/log
+

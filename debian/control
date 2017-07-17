@@ -1,0 +1,24 @@
+Source: loom-tm
+Section: devel
+Priority: optional
+Maintainer: T Makphaibulchoke <tmac@hpe.com>
+XS-Requester: unknown@notset.com
+Origin: HPE
+XS-Source-Origin: native
+Build-Depends: debhelper (>= 9.0), maven (>= 3.0.5)
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/HewlettPackard/loom-tm.git
+Vcs-Browser: https://github.com/HewlettPackard/loom-tm.git
+Homepage: http://www.acpica.org
+
+Package: loom-tm
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, openjdk-8-jre
+Description: loom for TM
+ loom package for TM
+
+Package: loom-tm-repo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: loom-tm repository
+ Repository required for loom-tm off-line build

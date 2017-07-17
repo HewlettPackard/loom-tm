@@ -1,0 +1,10 @@
+[Unit]
+Description=loom
+ConditionPathExists=!/usr/share/loom-tm/not_to_be_run
+
+[Service]
+ExecStart=/usr/share/loom-tm/run_loom.sh
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

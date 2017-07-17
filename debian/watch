@@ -1,0 +1,5 @@
+version=3
+opts=uversionmangle=s/^(\d\d)_(\d\d)_(\d\d)$/20$3$1$2/;s/_/./g \
+https://github.com/HewlettPackard/loom-tm-adapter.git/tags \
+.*/archive/(?:upstream/)?(?:v||version-|release-|X|R)(\d\S*)\.tar\.gz
+# Bart Martens <bartm@debian.org>  Tue, 12 Mar 2013 05:51:05 +0000

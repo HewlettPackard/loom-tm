@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+#export DH_VERBOSE = 1
+
+export M2_HOME=/usr/share/maven
+export M2=${M2_HOME}/bin
+
+export LOOM_TM_PATH=/usr/share/loom-tm
+ESC_LOOM_TM_PATH=$(shell echo $(LOOM_TM_PATH) | sed -e '1,$$s/\//\\\//g')
+
+MVN=mvn
+MVN_ARGS=-Dmaven.repo.local=debian/maven-repo -DproxySet=true -DproxyHost=<**set this**> -DproxyPort=8080 -DskipTests=true
+
+%:
+	dh $@ 

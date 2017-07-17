@@ -1,0 +1,2 @@
+loom-tm binary: missing-dep-on-jarwrapper
+loom-tm binary: executable-jar-without-main-class
